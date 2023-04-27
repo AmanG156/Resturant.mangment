@@ -1,0 +1,157 @@
+.Layout{
+    display: flex;
+    justify-content: space-between;
+}
+.Transctions_heading{
+ display: flex;
+ justify-content: space-between;
+     text-align: initial;
+    margin-top: 27px;
+     width: 85%; 
+}
+.transcation_name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    
+    /* text-align: initial;
+    margin-top: 27px;
+    width: 78%; */
+    color: #17203F;
+}
+.Start_bar{
+    height: 31px;
+    width: 120px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 32px;
+}
+.End_bar{
+    height: 31px;
+    width: 120px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.Transctions_filter{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 50px;
+/* identical to box height, or 200% */
+
+
+color: #17203F;
+}
+.Transctions_Content{
+    width: 85%;
+    height: 65px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+background: #FFFFFF;
+box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+padding: 23px;
+}
+.dish_name{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+text-transform: capitalize;
+
+color: #000000;
+}
+.transction_date{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-transform: capitalize;
+
+color: #000000;
+
+opacity: 0.5;
+}
+.Transction_Price{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.Main_div{
+    width: 78%;
+}
+.Transction_total{
+    background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 8px;
+width: 15%;
+height: 41px;
+text-align: inherit;
+padding: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.Transction_footer{
+    display: flex;
+    justify-content: end;
+    width: 85%;
+    margin-top: 3%;
+}
+
+.Start_bar{
+    height: 31px;
+    width: 120px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 32px;
+}
+.End_bar{
+    height: 31px;
+    width: 120px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.Transctions_filter{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 50px;
+
+
+color: #17203F;
+}

@@ -1,0 +1,81 @@
+.Layout{
+    display: flex;
+    justify-content: space-between;
+}
+.Settable_heading{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 20px;
+text-align: initial;
+margin-top: 27px;
+width: 92%;
+color: #17203F;
+display: flex;
+justify-content: space-between;
+/* identical to box height, or 200% */
+
+}
+.Table_box{
+    width: 300px;
+    height: 250px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+overflow: hidden;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(207, 80, 34);
+    position: relative;
+    border-radius: 2px;
+    left: -2px;
+    color: white;
+}
+.table_div{
+    width: 78%;
+}
+.dinning_img{
+    width: 191px;
+    height: 170px;
+
+}
+.table_grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    row-gap: 25px;
+    margin-top: 35px;
+}
+.incre_field{
+    width: 40px;
+    height: 25px;
+}
+.table_increment{
+    display: flex;
+    justify-content: space-between;
+    width:150px;
+}
+.table_plus{
+    font-size: 15px;
+    /* padding: 10px; */
+    border-radius: 3px;
+    border: none;
+    
+}
+.table_minus{
+    font-size: 15px;
+    /* padding: 10px; */
+    border-radius: 3px;
+    border: none;
+    
+
+}
+.table_increment> input{
+    /* background-color: aqua; */
+    width: 60px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}

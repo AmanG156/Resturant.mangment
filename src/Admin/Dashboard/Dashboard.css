@@ -1,0 +1,111 @@
+.Dashboard_heading{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 50px;
+text-align: initial;
+margin-top: 27px;
+width: 78%;
+color: #17203F;
+}
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+}
+.content_div{
+    /* background-color: #17203F; */
+    width: 120%;
+    height: 100px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+background: #FFFFFF;
+box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+.Table_icon{
+    background: #E6E6E6;
+border-radius: 2px;
+width: 118px;
+height: 89px;
+padding: 7px;
+}
+.Table_img{
+    width: 90px;
+    height: 74px;
+}
+.Table_No{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #000000;
+}
+.Table_menu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+margin-top: 20px;
+text-transform: capitalize;
+
+color: #000000;
+}
+.menu_price{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+margin-top: 20px;
+}
+.dilevery_confirm{
+    width: 132px;
+    height: 50px;
+    /* background: #1A9C1A; */
+border-radius: 4px;
+ margin-top: 20px;   
+ text-align: center;
+}
+.dilvery{
+   
+    color: #E6E6E6;
+    font-size: 16px;
+    padding: 17px;
+}
+.dilevery_cancle{
+    width: 130px;
+    height: 50px;
+    background: 
+    #C35F35;
+border-radius: 4px;
+ margin-top: 20px;  
+ text-align: center;
+}
+
+.pagination-background{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width:100%;
+}
+
+.dash_top{
+    display: flex;
+      justify-content: space-between;
+      width: 93%;
+      /* margin: auto; */
+      margin-top: inherit;
+  }

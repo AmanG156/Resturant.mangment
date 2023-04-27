@@ -1,0 +1,248 @@
+.menu_img {
+  background-image: url("../assets/Rectangle 1 (1).png");
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu_img1 {
+  background-image: url("../assets/Home.png");
+  height: 350vh;
+  width: 100%;
+  margin-top: 500px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu_img2 {
+  background-image: url("../assets/Subtract.png");
+  height: 50vh;
+  width: 100%;
+  margin-top: 2778px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+}
+.menu_logo {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  left: 45%;
+  top: 200px;
+}
+
+.menu_logo1 {
+  position: relative;
+  top: 145px;
+}
+
+.menu_img_top {
+  /* background-image: url(../assets/rectTop.png); */
+  /* width: 100%; */
+  height: 349px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  top: 68%;
+}
+.menu_t2 {
+  background-image: url("../assets/Home.png");
+  height: 2100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 10px;
+}
+.menu_t3 {
+  background-image: url("../assets/Subtract.png");
+  /* background-image: url(http://localhost:3000/static/media/Subtract.1f3bc5d….png); */
+  height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* position: relative;
+    bottom: 70px; */
+}
+
+.menu_btn {
+  width: 513px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 72px;
+}
+.menu_inner_btn {
+  width: 246px;
+  height: 60px;
+  justify-content: space-between;
+  margin: 5px;
+  z-index: 2;
+  border: none;
+  border-radius: 5px;
+}
+.menu-item {
+  background: rgb(244, 243, 243);
+  width: 85%;
+  /* height: 4%; */
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+  padding: 14px;
+  border-radius: 15px;
+  line-height: 8px;
+  /* margin-left: 292px; */
+}
+.img_div_menu-item2 {
+  text-align: left;
+}
+.img_div_menu-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.menu_list {
+  display: grid;
+  flex-flow: wrap;
+  /* flex: auto; */
+  /* margin-left: 269px; */
+  grid-template-columns: auto auto;
+  margin: auto;
+  width: 1100px;
+}
+
+.Add-btn {
+  width: 246px;
+  height: 60px;
+  background-color: #c35f35;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .menu_list {
+    width: 100%;
+    display: block;
+  }
+
+  .menu_btn {
+    width: 100%;
+    font-size: small;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    /* / margin-bottom: 10px; / */
+  }
+
+  .menu_t2 {
+    height: auto;
+  }
+  .menu-item {
+    margin: 20px;
+  }
+  .menu_img_top {
+    background-size: cover;
+    bottom: -44px;
+    padding-top: 50px;
+
+    height: auto;
+  }
+  .menu_img {
+    height: auto;
+  }
+  .menu_logo {
+    width: 29%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 23px;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .heading_title {
+    color: white;
+    padding-top: 86px;
+    font-size: smaller;
+  }
+
+  .inner_heading {
+    font-size: smaller;
+  }
+
+  .img_div_menu-item2 {
+    font-size: x-small;
+  }
+
+  .Add-btn {
+    font-size: small;
+    width: auto;
+    padding: 0px 32px;
+  }
+  .menu_inner_btn {
+    width: 46%;
+  }
+}
+/* @media */
+/* @media only screen and (max-width: 700px) {
+  .menu_list {
+    width: 100%;
+    display: block;
+  }
+
+  .menu_btn {
+    width: 100%;
+    font-size: small;
+    margin-top: 15px;
+  }
+
+  .menu_t2 {
+    height: auto;
+  }
+  .menu-item {
+    margin: 20px;
+  }
+  .menu_img_top {
+    background-size: cover;
+    bottom: -44px;
+
+    height: auto;
+  }
+  .menu_img {
+    height: auto;
+  }
+  .menu_logo {
+    width: 29%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 11px;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .heading_title {
+    color: white;
+    padding-top: 78px;
+    font-size: smaller;
+  }
+
+  .inner_heading {
+    font-size: smaller;
+  }
+
+  .img_div_menu-item2 {
+    font-size: x-small;
+  }
+
+  .Add-btn {
+    font-size: small;
+    width: auto;
+    padding: 0px 32px;
+  }
+} */

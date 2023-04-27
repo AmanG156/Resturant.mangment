@@ -1,0 +1,129 @@
+.ChefDashboard_Layout{
+    background-image:  url( "../asset/LoginBG.png");
+ background-repeat: no-repeat;
+ background-size: cover; 
+ /* width: 500px; */
+ height: 713px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+ }
+  .ChefDashboard_whitediv{
+    width: 94%;
+    height: 620px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow-y: auto;
+  }
+  .ChefDashboard_Icon{
+    position: absolute;
+    top: -6px;
+ }
+ .ChefDashboard_Main_div{
+    width: 94%;
+    margin-top: 6%;
+    margin-left: 71px;
+ }
+ .ChefDashboard_content_div{
+    /* background-color: #17203F; */
+    width: 93%;
+    height: 100px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+background: #FFFFFF;
+box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+.ChefDashboard_Table_icon{
+    background: #E6E6E6;
+border-radius: 2px;
+width: 118px;
+height: 89px;
+padding: 7px;
+}
+.Table_img{
+    width: 90px;
+    height: 74px;
+}
+.ChefDashboard_Table_No{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: #000000;
+}
+.ChefDashboard_menu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+margin-top: 20px;
+text-transform: capitalize;
+
+color: #000000;
+}
+.ChefDashboard_menu_price{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+margin-top: 20px;
+}
+.ChefDashboard_dilevery_confirm{
+    width: 132px;
+    height: 39px;
+    background: #1A9C1A;
+border-radius: 4px;
+ margin-top: 20px;   
+ text-align: center;
+}
+.ChefDashboard_dilvery{
+   
+    color: #E6E6E6;
+    font-size: 16px;
+    padding: 17px;
+}
+.ChefDashboard_dilevery_cancle{
+    width: 130px;
+    height: 40px;
+    /* background:#C35F35; */
+border-radius: 4px;
+ margin-top: 20px;  
+ text-align: center;
+ padding: inherit;
+}
+.btn_div1{
+    width: 200px;
+    margin: auto;
+}
+.btn_div1>div{
+    width: 100%;
+
+}
+.btn_div1>div>button{
+    width: 100%;
+    /* color: #1A9C1A; */
+}
+
+.chefdash_top{
+    display: flex;
+    justify-content: end;
+    width: 90vw;
+    margin: auto;
+    margin-top: -47px;
+    margin-right: 0px;
+  }

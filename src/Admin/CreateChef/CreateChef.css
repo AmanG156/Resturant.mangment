@@ -1,0 +1,39 @@
+.chef_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: initial;
+  margin-top: 27px;
+  width: 78%;
+  color: #17203f;
+}
+
+.content_div1 {
+  width: 1070px;
+  height: 62px;
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.chef_top{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.btn_icon{
+  background: none;
+  border: none;
+}
+
+.chef_top1{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: inherit;
+}

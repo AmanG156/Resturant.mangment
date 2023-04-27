@@ -1,0 +1,155 @@
+.Login_div{
+    background-image: url("../../asset/LoginBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 713px;
+}
+.Login_container{
+    /* width: 600px;
+    height: 600px;
+    background-color:white ;
+    margin: auto;
+    border-radius: 20px;
+     opacity: .2;
+     border: 15px solid whitesmoke; */
+
+
+     box-sizing: border-box;
+
+position: absolute;
+width: 1257px;
+height: 563px;
+left: 130px;
+top: 63px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 3px solid rgba(255, 255, 255, 0.5);
+border-radius: 47px;
+}
+/* .Login_box{
+    position: absolute;
+margin: auto;
+width: 531px;
+height: 510px;
+left: 444px;
+top: 242px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+} */
+.VLoginfield{
+    box-sizing: border-box;
+    /* width: 422px !important;
+    height: 47px;
+    left: 497px;
+    top: 314px;
+    margin-top: 24px; */
+    width: 315px !important;
+    height: 42px;
+    left: 497px;
+    top: 314px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    margin-left: 54px;
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 5px !important;
+    }
+    .VLogin_div{
+        position: absolute;
+        width: 444px;
+        height: 399px;
+        left: 396px;
+        top: 103px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+        border-radius: 20px;
+    }
+    .VLogin_btn{
+        box-sizing: border-box;
+        display: inline-block;
+        align-items: center;
+        padding: 0px 40px 2px 42px;
+        gap: 10px;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-color: #C35F35;
+        border-radius: 5px;
+        justify-content: center;
+        height: 46px;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 25px;
+        border: none;
+;
+    }
+    .VLogin>form{
+        margin-top: 35%;
+    }
+    .heading_Login{
+    height: 70px;
+    margin-top: 27px;
+    left: 652px;
+    top: 210px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #17203F;
+    }
+    .login_icon{
+        position: absolute;
+        top: -90px;
+        left: 128px;
+    }
+    /* .border{
+        
+        width: 370px;
+        height: 0px;
+        left: 446px;
+        margin-left: 67px;
+        margin-bottom: 22px;
+    } */
+    /* .already{
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+   
+    
+    color: #939393;
+    } */
+    .swtich_login{
+     font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 17px;
+    line-height: 22px;
+
+    color: black;
+    }
+    .error{
+        color : red
+      }
+      .VSwtich_forgot{
+        text-align: end;
+        margin-right: 50px;
+        margin-top: 20px;
+      }
+      .Login_register{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 22px;
+align-items: center !important;
+text-decoration-line: underline;
+
+color: #222222;
+      }
